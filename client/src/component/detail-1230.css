@@ -1,0 +1,375 @@
+@media screen and (max-width: 1230px){
+    .hero-detail-section{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.kategori-section{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+
+    width: 100%;
+    height: 210px;
+    position: relative;
+}
+
+.kategori-hero-section{
+    width: 100%;
+    height: auto;
+}
+
+.title-kategori-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px 0px 5px;
+
+    width: 40%;
+    height: 206px;
+
+    background: #927F61;
+    box-shadow: 5px 0px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.title-kategori{
+    width: 70%;
+    height: 100%;
+    margin-top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4vw;
+    line-height: 4.5vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.kategori-container{
+    white-space: nowrap;
+    height: 100%;
+    width: 70%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    align-items: right;
+    gap: 30px;
+    padding-top: 15px;
+    padding-left: 30%;
+    scroll-behavior: smooth;
+    
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.kategori-container::-webkit-scrollbar{
+    display: none;
+}
+
+
+.container{
+    width: 20vw;
+    min-width: 170px;
+    height: 15vw;
+    min-height: 170px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+
+    display: inline-block;
+    margin-right: 20px;
+
+    background-color: bisque;
+}
+
+.container-text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    align-items: center;
+}
+
+.container-text:hover > .kategori-text{
+    opacity: 100;
+    transition: 0.2s;
+}
+
+.kategori-text{
+    transition: 5s;
+    font-size: 20px;
+    color: #FFFFFF;
+    opacity: 0;
+}
+
+.kategori-text{
+    text-align: center;
+}
+
+.container:hover{
+    background-color: #016CB8;
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 768px) {
+    .button-section, .button-section-left-open, .button-section-closed, .button-section-left{
+        display: none;
+    }
+}
+
+.button-section{
+    padding: 80px 20px 0px 20px;
+    height: 100%;
+    z-index: 1;
+}
+
+.button-section:hover > #kanan path {
+    fill: #FFFFFF;
+    transition: 0.2s;
+    box-shadow: 5px 0px 7px rgba(0, 0, 0, 0.25);
+   
+}
+
+
+#kanan{
+    width: 50px;
+    height: 50px
+}
+
+#kanan path{
+    transition: 0.2s;
+    fill: #016CB8;
+}
+
+.office-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+}
+
+.title-office-section{
+    height: auto;
+    margin-left: 10%;
+
+    margin-bottom: 0px;
+
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(max(10px, 17vw), 50px);
+    line-height: 17.5vw;
+    width: 100%;
+
+    color: #000000;
+}
+
+.maps-office-section{
+    width: 90%;
+    height: 400px;
+    background: url('../assets/maps.png');
+    background-size: cover;
+    background-position: center;
+
+
+    background-color: #927F61;
+    border-radius: 10px;
+}
+
+.office-detail-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.office-detail-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0.5vh;
+    width: 80%;
+    margin: 0;
+}
+
+.office-city{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 5vw;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.office-road{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(18px, 3vw);
+    line-height: 3.5vw;
+    width: 100%;
+    height: auto;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.office-section .line{
+    display: none;
+    width: 244px;
+    height: 0px;
+
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+.mitra-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.mitra-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(20px, 4vh, 5vw);
+    line-height: 10vw;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #000000;
+    height: auto;
+}
+
+.logo-mitra-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    min-width: 500px;
+    height: auto;
+}
+
+@media screen and (max-width: 525px) {
+
+    .logo-mitra-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        /* gap: 5vw; */
+        flex-wrap: wrap;
+    
+        width: 90vw;
+        min-width: 90vw;
+        height: auto;
+    }
+
+    .logo-container{
+        /* height: 25vw;
+        width: 25vw; */
+        /* border: 1px solid #016CB8; */
+        border-radius: 10px;
+        background-color: white;
+    
+        background: url('../assets/dtc-logo.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+    
+    }
+}
+
+
+
+.partner-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.partner-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(20px, 4vh, 4vw);
+    line-height: 10vw;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+.logo-partner-container{
+    white-space: nowrap;
+    height: 100%;
+    /* gap: 20px; */
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0px 46%;
+}
+
+
+/* Marquee{
+    height: 100%;
+    gap: 20px;
+    padding: 0px 46%;
+} */
+
+
+
+.logo-partner-container::-webkit-scrollbar{
+    display: none;
+}
+
+.circle-logo{
+    display: inline-block;
+    margin-right: 12vw;
+    /* width: 5vw;
+    height: 15vw; */
+    /* border-radius: 50vw; */
+
+    /* background-color: bisque; */
+}
+
+
+    
+    
+}

@@ -1,0 +1,405 @@
+.hero-detail-section{
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        width: 100%;
+        padding: 100px 0px;
+    }
+    
+    .kategori-section{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    
+        width: 100%;
+        height: 210px;
+        position: relative;
+    }
+    
+    .kategori-hero-section{
+        width: 100%;
+        height: auto;
+    }
+    
+    .title-kategori-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px 0px 0px 5px;
+    
+        width: 500px;
+        height: 206px;
+    
+        background: #927F61;
+        box-shadow: 5px 0px 7px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 20px 20px 0px;
+    }
+    
+    .title-kategori{
+        width: 175px;
+        height: 80%;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+    
+        color: #FFFFFF;
+    }
+    
+    .kategori-container{
+        white-space: nowrap;
+        height: 100%;
+        width: 70%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        align-items: right;
+        gap: 30px;
+        padding-top: 15px;
+        padding-left: 30%;
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    
+    .kategori-container::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+    .container{
+        width: 300px;
+        height: 170px;
+    
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 8px;
+    
+        display: inline-block;
+        margin-right: 20px;
+    
+        background-color: bisque;
+    }
+
+    
+    .container-text{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px;
+        align-items: center;
+        transition: 1s;
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+    
+    .container-text:hover > .kategori-text{
+        opacity: 100;
+        transition: 0.2s;
+    }
+    
+    .kategori-text{
+        transition: 2s;
+        font-size: 30px;
+        color: #FFFFFF;
+        opacity: 0;
+        text-align: center;
+    }
+    
+    .container:hover{
+        background-color: #016CB8;
+        transition: 0.2s;
+    }
+
+    .container:hover > .container-text{
+        background-position: 99vw;
+        transition: 3s;
+    }
+    
+    
+    
+    
+    .button-section{
+        padding: 80px 20px 0px 20px;
+        height: 100%;
+        z-index: 1;
+    }
+    
+    .button-section:hover > #kanan path {
+        fill: #FFFFFF;
+        transition: 0.2s;
+        box-shadow: 5px 0px 7px rgba(0, 0, 0, 0.25);
+       
+    }
+
+    .button-section-left{
+        padding: 80px 20px 0px 20px;
+        height: 100%;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+    }
+
+    .button-section-left-open{
+        padding: 80px 20px 0px 20px;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+    }
+    
+    
+    
+    
+    .button-section-left:hover > #kanan path {
+        fill: #FFFFFF;
+        transition: 0.2s;
+        box-shadow: 5px 0px 7px rgba(0, 0, 0, 0.25);
+    }
+    
+    .button-section-left-open:hover > #kiri path {
+        fill: #FFFFFF;
+        transition: 0.2s;
+        box-shadow: 5px 0px 7px rgba(0, 0, 0, 0.25);
+    }
+    
+    #kanan{
+        width: 50px;
+        height: 50px
+    }
+    
+    #kanan path{
+        transition: 0.2s;
+        fill: #016CB8;
+    }
+    
+    #kiri{
+        width: 50px;
+        height: 50px
+    }
+    
+    #kiri path{
+        transition: 0.2s;
+        fill: #016CB8;
+    }
+
+    .office-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 37px;
+        overflow: hidden;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .title-office-section{
+        height: 77px;
+        margin-left: 10%;
+    
+        font-family: poppins;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 77px;
+        width: 100%;
+    
+        color: #000000;
+    }
+    
+    .maps-office-section{
+        width: 90%;
+        height: 400px;
+        background: url('../assets/maps.png');
+        background-size: cover;
+        background-position: center;
+    
+        background-color: #927F61;
+        border-radius: 10px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    
+    .office-detail-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-items: center; */
+        padding: 0px;
+        gap: 10%;
+        overflow: hidden;
+    }
+    
+    .office-detail-text-container{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 0px;
+        gap: 43px;
+        width: 90%;
+        margin-left: 7%;
+    }
+    
+    .office-city{
+        font-family: poppins;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+        
+        
+        color: #000000;
+    }
+    
+    .office-road{
+        font-family: poppins;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        width: 40vw;
+        /* identical to box height */
+    
+    
+        color: #000000;
+    }
+    
+    .office-section .line{
+        width: 0;
+        height: auto;
+    
+        border: 1.5px solid #000000;
+        /* transform: rotate(-90deg); */
+    }
+    
+    .mitra-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: clamp(20px, 5vh, 5vw);
+    }
+    
+    .mitra-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: clamp(18px, 8vh, 2vw);
+        line-height: 54px;
+        /* identical to box height */
+    
+        text-align: justify;
+    
+        color: #000000;
+    }
+
+    
+    .logo-mitra-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: clamp(20px, 5vw, 5vh);
+        flex-wrap: wrap;
+    
+        width: 90vw;
+        height: auto;
+    }
+
+    .logo-container{
+        height: clamp(80px, 10vh, 10vw);
+        width: clamp(80px, 12vw, 20vh);
+        /* border: 1px solid #016CB8; */
+        border-radius: 10px;
+        background-color: white;
+        margin: 0 clamp(10px, 1vh, 3vw);
+
+        background: url('../assets/dtc-logo.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+
+    }
+    
+    
+    .partner-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: clamp(10px, 5vh, 5vw);
+    }
+    
+    .partner-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: clamp(18px, 8vh, 2vw);
+        line-height: 54px;
+        /* identical to box height */
+    
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+ 
+    
+/*     
+    .logo-partner-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    
+    .logo-partner-container::-webkit-scrollbar{
+        display: none;
+    } */
+
+    /* .marquee {
+        width: 100%;
+        text-transform: uppercase;
+        white-space: nowrap;
+        overflow: hidden;
+        
+        animation: animate 10s linear infinite;
+      }
+      
+      .marquee::webkit-toolkit-scrollbar{
+        display: hidden;
+      }
+      @keyframes animate {
+        100% {
+          transform: translateX(-100%, 0);
+        }
+      } */
+    
+    .circle-logo{
+        display: inline-block;
+        margin-right: 8vw;
+        height: clamp(50px, 12vh, 20vw);
+        /* min-width: 70px; */
+        width: clamp(50px, 12vh, 20vw);
+        /* border-radius: 20vw; */
+        /* background-color: #016CB8; */
+        /* padding-left: 10vw; */
+        
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }

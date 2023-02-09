@@ -1,0 +1,123 @@
+[
+    {
+    "profil": [{
+            "title":"Dafam Trading Co.",
+            "profildesc":"Dafam Trading Company merupakan bagian dari Dafam Group yang bergerak di bidang pengadaan barang, berpotensi menjadi partner pemerintah dan swasta. Dafam Group telah berkecimpung di bisnis properti dan perhotelan sejak tahun 2010. Dafam Trading Company menjadi mitra pemerintah yang terpercaya dan memegang prinsip transparasi, objektifitas selaras dengan peraturan pembelanjaan yang ditetapkan. Selalu menjaga hubungan baik dengan seluruh stake holder dan membuka kesempatan untuk para supplier, distributor, selling agent, reseller, produsen, pengusaha UMKM, untuk bersama-sama berusaha mengembangkan pencapaian usaha yang lebih baik.",
+            "visi-img": "",
+            "visi-desc":"Menjadi trading company yang menyediakan kebutuhan pemerintahan & non pemerintahan meliputi bidang kesehatan, TIK, dan mebeler, melalui system e-purchasing yang disesuaikan dengan kebijakan pemerintah.",
+            "misi-img": "",
+            "misi-desc": "Mensupply sarana prasarana, kebutuhan pemerintahan dan non pemerintahan baik manual maupun dengan system (e-purchasing). Menghimpun produsen (sarana prasarana dalam pendidikan, kesehatan, security system dan fasilitas umum) dalam skala besar dan kecil untuk berkontribusi secara positif di pasar nasional"
+        }],
+    "detail":[
+        {
+            "kategori":[
+                {
+                    "id": 1,
+                    "kategoriimg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png",
+                    "kategoritxt": "Komputer"
+                },
+                {
+                    "id": 2,
+                    "kategoriimg": "",
+                    "kategoritxt": "Laptop"
+                },
+                {
+                    "id":3,
+                    "kategoriimg": "",
+                    "kategoritxt": "Chromebook"
+                },
+                {
+                    "id": 4,
+                    "kategoriimg": "",
+                    "kategoritxt": "Aksesoris"
+                },
+                {
+                    "id": 5,
+                    "kategoriimg": "",
+                    "kategoritxt": "Susu Stunting"
+                },
+                {
+                    "id": 6,
+                    "kategoriimg": "",
+                    "kategoritxt": "Komputer"
+                }
+            ],
+            "office":[
+                {
+                    "id": 1,
+                    "kota":"Semarang",
+                    "jalan":"Jalan Imam Bonjol No.188, Sekayu, Kec. Semarang Tengah, Kota Semarang",
+                    "lat":"-6.9797049",
+                    "long":"110.4097995"
+                },
+                {
+                    "id": 2,
+                    "kota":"Cilacap",
+                    "jalan":"Jalan Dr. Wahidin Sudiro Husodo No.5-15, Dafam Cilacap, Sidakaya, Kec. Cilacap Sel., Kabupaten Cilacap",
+                    "lat":"-7.7323979",
+                    "long":"109.0131443"
+                },
+                {
+                    "id": 3,
+                    "kota":"Pekalongan",
+                    "jalan":"Jalan Urip Sumoharjo No.53 Medono, Podosugih, Kec. Pekalongan Bar., Kota Pekalongan",
+                    "lat":"-6.9014462",
+                    "long":"109.6620677"
+                },
+                {
+                    "id": 4,
+                    "kota":"Pekanbaru Riau",
+                    "jalan":"Jalan Sultan Syarif Qasim Kav. 150 Kota Tinggi Lima Puluh, Kota Tinggi, Kec. Pekanbaru Kota, Kota Pekanbaru",
+                    "lat":"0.5305099",
+                    "long":"101.4524076"
+                }
+            ],
+            "mitra":[
+                {"id":1, "logo":""},
+                {"id":2, "logo":""},
+                {"id":3, "logo":""},
+                {"id":4, "logo":""},
+                {"id":5, "logo":""},
+                {"id":6, "logo":""}
+            ],
+            "partner":[
+                {"id":1, "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"},
+                {"id":2, "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"},
+                {"id":3, "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"},
+                {"id":4, "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"},
+                {"id":5, "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"},
+                {"id":6, "logo":""},
+                {"id":7, "logo":""},
+                {"id":8, "logo":""},
+                {"id":9, "logo":""},
+                {"id":10, "logo":""},
+                {"id":11, "logo":""},
+                {"id":12, "logo":""},
+                {"id":13, "logo":""},
+                {"id":14, "logo":""},
+                {"id":15, "logo":""},
+                {"id":16, "logo":""},
+                {"id":17, "logo":""},
+                {"id":18, "logo":""},
+                {"id":19, "logo":""},
+                {"id":20, "logo":""},
+                {"id":21, "logo":""},
+                {"id":22, "logo":""},
+                {"id":23, "logo":""},
+                {"id":24, "logo":""},
+                {"id":25, "logo":""},
+                {"id":26, "logo":""},
+                {"id":27, "logo":""}
+            ]
+        }
+    ],
+    "footer": [
+        {
+            "kantor": "Jalan Raung, No 15, Gajahmungkur, Kota Semarang",
+            "email" : "contact@dafamtrading.co",
+            "telepon" : "(024) 3559111",
+            "whatsapp" : "081229456202"
+        }
+    ]
+}
+]

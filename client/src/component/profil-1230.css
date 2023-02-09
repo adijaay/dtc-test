@@ -1,0 +1,236 @@
+@media screen and (max-width: 1230px){
+    
+    .detail-section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+    
+        width: 100%;
+        height: auto;
+    }
+    
+    .line-frame{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 13px 10px;
+        
+        width: 30%;
+        height: 0;
+    }
+    
+    .line{
+        border: 3px solid black;
+        width: 100%;
+    }
+    
+    .detail-text{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: clamp(12px, 2vh, 3vw);
+        line-height: clamp(12px, 2.5vh, 5.5vw);
+        text-align: justify;
+    
+        width: 80%;
+        margin-left: 10px;
+    }
+    
+    .visimisi-section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* padding: 100px 0px; */
+        overflow: hidden;
+    
+        width: 100%;
+        height: auto;
+        /* margin-top: 10%; */
+    }
+    
+    .image-visi{
+        width: 100%;
+        height: 421px;
+    }
+    
+ 
+    
+    .detail-visi-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 106px 0px 0px;
+        gap: 10%;
+    
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .visi-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 80%;
+        height: auto;
+        position: inherit;
+        gap: 150px;
+    }
+    
+    .detail-visi-text-section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    
+        width: 80%;
+        height: auto;
+
+        order: 1;
+    }
+
+    .visi-decoration{
+        width: 324px;
+        height: 0px;
+        margin-top: -100px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 128px;
+        line-height: 192px;
+        /* identical to box height */
+    
+        text-align: justify;
+        letter-spacing: 0.165em;
+        -webkit-text-stroke: 3px #927F61;
+        
+        
+        order: 0;
+        flex: none;
+        position: inherit;
+        /* z-index: 99; */
+    }
+    
+    .visimisi-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        /* identical to box height */
+    
+        text-align: justify;
+    
+        color: #000000;
+    }
+    
+    .visimisi-detail{
+        width: 100%;
+        height: auto;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: justify;
+        padding-bottom: 100px;
+    
+        color: #000000;
+    }
+    
+
+    
+    .detail-misi-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+        gap: 10%;
+        overflow: hidden;
+    
+        width: 100%;
+        height: auto;
+
+        
+    }
+
+    .image-misi{
+        width: 100%;
+        height: 421px;
+
+        flex: none;
+        order: 0;
+    }
+    
+    .detail-misi-text-section{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 19px;
+    margin: 0;
+    width: 80%;
+    height: auto;
+
+    
+    }
+    
+    .misi-section{
+        display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 0px 0px;
+    gap: 200px;
+    
+    width: 80%;
+    height: auto;
+    
+    flex: none;
+    order: 1;
+    }
+    
+    .misi-decoration{
+        width: 100%;
+        height: 0px;
+        margin-top: -100px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 128px;
+        line-height: 192px;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.165em;
+        -webkit-text-stroke: 3px #016CB8;
+        /* color: white; */
+        /* z-index: 99; */
+
+        position: inherit;
+    }
+
+    .background-2{
+        height: 100vw;
+        max-height: 900px;
+        width: 40vw;
+        max-width: 400px;
+        background: url('../assets/bg-1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+      
+        position: absolute;
+        top: 3000px;
+        right: -0px;
+        /* transform: rotate(180deg); */
+        z-index: -1;
+      }
+}

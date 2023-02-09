@@ -1,0 +1,208 @@
+@media screen and (max-width: 900px) {
+    .hero{
+        width: 100%;
+      }
+      
+
+      .background-section{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      
+      .navbar{
+        display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 0px;
+      margin: 40px 5vw;
+      border-radius: 50px;
+      font-family: 'Poppins';
+      width: 90vw;
+      height: 10vh;
+      position: fixed;
+      top: 0;
+      z-index: 99;
+      transition: 0.5s;
+      }
+
+      .navbar svg{
+        display: none;
+      }
+
+      .navbar img{
+        height: 70%;
+      }
+      
+      .navbar-logo{
+        height: clamp(50px, 15vh, 20vw);
+        width: 200px;
+        /* background: url('../assets/dtc-logo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50% 50%; */
+      }
+      
+      .navbar-content-section{
+        display: none;
+        flex-direction: row;
+        gap: 10%;
+        width: 75%;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      
+      
+      .navbar-content{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration: none;
+        color: black;
+      }
+      
+      .navbar.active{
+        display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 5px 0px;
+      gap: clamp(10px, 25vw, 40vh);
+
+      margin: 10px 5vw;
+      border-radius: 50px;
+      font-family: 'Poppins';
+      width: 90vw;
+      height: clamp(40px, 20vw, 5vh);
+      background-color: #016CB8;
+      position: fixed;
+      top: 0;
+      z-index: 999;
+      transition: 0.5s;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      }
+
+      .navbar.active:active{
+        background-color: white;
+      }
+      
+      
+      .navbar.active .bar-icon{
+        display: flex;
+        padding-right: 8%;
+
+      }
+
+      .navbar.active .navbar-logo{
+        height: 100%;
+        max-height: 70px;
+        width: auto;
+        /* background: url('../assets/dtc-white.png');
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%; */
+      }
+      
+      .navbar.active .navbar-content-section{
+        display: none;
+        flex-direction: row;
+        gap: 15%;
+        width: 60vw;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 5vw;
+      }
+      
+      .navbar.active .navbar-content{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 17px;
+        text-decoration: none;
+        color: white;
+        z-index: 9999;
+      }
+      
+      .navbar.active .navbar-content :hover{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 17px;
+        text-decoration: underline;
+      }
+      
+      .navbar.active img{
+        height: 80%;
+      }
+    
+      
+      .navbar-content-section a :visited{
+        text-decoration: underline;
+      }
+
+
+
+    .content-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0px 0px 0px 1vh;
+        gap: 1vh;
+        transition: 0.5s;
+
+        width: auto;
+        height: auto;
+        position: fixed;
+        top: clamp(70px, 8vh, 32vw);
+        right: 7vw;
+        z-index: 98;
+
+        transition: 0.5s;
+      }
+      
+
+      .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 1vh 40px 1vh 40px;
+        gap: 10px;
+
+        width: auto;
+        height: auto;
+
+        margin: 0px 0px;
+
+        background: #016CB8;
+        border-radius: 41px;
+
+        text-decoration: none;
+        color: white;
+        font-family: 'poppins';
+        font-size: clamp(20px, 2vh, 8vw);
+      }
+
+      .close-container{
+        display: flex;
+        opacity: 0;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0px 0px 0px 0px;
+        gap: 20px;
+        transition: 0.5s;
+
+        width: auto;
+        height: auto;
+        position: fixed;
+        top: 10vh;
+        right: -30vw;
+        z-index: 98;
+
+        transition: 0.5s;
+      }
+
+}
+
