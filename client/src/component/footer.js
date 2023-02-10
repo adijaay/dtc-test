@@ -11,7 +11,7 @@ export default function Footer(){
     const [linkwa, setLinkwa] = useState(null)
 
     const getLogoFooter = async() => {
-      const get = await Axios.put(urllink+"api/getlogo", {id: 2})
+      const get = await Axios.put(urllink+"api/getlogo", {id: 3})
       .then((response) => {
           let data = response.data;
           {data.map((val) => {
@@ -45,6 +45,7 @@ export default function Footer(){
     
 
     return(
+      <>
         <div className='footer' id='kontak'>
           <div className='footer-component-container'>
             <div className='footer-detail-container'>
@@ -67,12 +68,6 @@ export default function Footer(){
                     <h2 className='footer-text'>{whatsapp}</h2>
                   </div>
                 </div>
-                <div className="header-footer-container">
-                  <div className='copyright-container'>
-                  <svg id='copyright-logo' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 448c-110.532 0-200-89.451-200-200 0-110.531 89.451-200 200-200 110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200zm107.351-101.064c-9.614 9.712-45.53 41.396-104.065 41.396-82.43 0-140.484-61.425-140.484-141.567 0-79.152 60.275-139.401 139.762-139.401 55.531 0 88.738 26.62 97.593 34.779a11.965 11.965 0 0 1 1.936 15.322l-18.155 28.113c-3.841 5.95-11.966 7.282-17.499 2.921-8.595-6.776-31.814-22.538-61.708-22.538-48.303 0-77.916 35.33-77.916 80.082 0 41.589 26.888 83.692 78.277 83.692 32.657 0 56.843-19.039 65.726-27.225 5.27-4.857 13.596-4.039 17.82 1.738l19.865 27.17a11.947 11.947 0 0 1-1.152 15.518z"/></svg>
-                    <h2 className='footer-copyright-text'>Copyright, 2023.</h2>
-                  </div>
-                </div>
               </div>
             </div>
             <div className='footer-image'>
@@ -86,5 +81,10 @@ export default function Footer(){
           </div>
           </a>
         </div>
+        
+        <div style={{alignItems: 'center', justifyContent: 'center', width: '100%', display: 'flex'}}>
+            <h2 className='footer-copyright-text' style={{color: 'black', margin: '.5vh 0'}}>© Copyright, 2023.</h2>
+        </div>
+        </>
     )
 }

@@ -20,7 +20,8 @@ export default function Partner () {
     return(
         <div className='partner-section'>
                 <h1 className='partner-title'>Partner Kami</h1>
-                <Marquee className="marquee" speed={50} gradientWidth={"5vw"}>
+                {/* <Marquee className="marquee" speed={50} gradientWidth={"5vw"}> */}
+                <div className='logo-mitra-container partner-logo'>
                   {partner.map(partner => {
                     const logo = urllink + partner.gambar_partner;
                     return(
@@ -28,7 +29,8 @@ export default function Partner () {
                       </div>
                     )
                   })}
-                </Marquee>
+                </div>
+                {/* </Marquee> */}
                 
         </div>
     )
